@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="41.0" fitWidth="50.0" layoutX="23.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Downloads/logo-xe-dap-4.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#1c6ad0" fontSmoothingType="LCD" layoutX="77.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAYMENT">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Text>
+      <Button layoutX="499.0" layoutY="570.0" mnemonicParsing="false" style="-fx-background-color: red;" text="OK" textFill="#e8e2e2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="474.0" layoutY="385.0" prefHeight="38.0" prefWidth="116.0" text="MESSAGE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="253.0" layoutY="229.0" prefHeight="96.0" prefWidth="559.0" text="PAYMENT RESULT!" textAlignment="CENTER" textFill="#18e841" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="66.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
